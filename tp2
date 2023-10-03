@@ -1,0 +1,57 @@
+Bilel Tizi
+TP 2: utilisation avancée de Gi
+
+1 Analyse d’un dépôt
+1.1) 9 contributeurs
+
+1.2)92Kio
+
+1.3)On peut voir qui la modifier, à quel heure.
+
+1.4)C’est Jake Ginnivanag
+
+1.5)3e5d1596
+
+1.6)-I upload the contents of this repository via FTP every once in a while to: http://www.wei-wang.com/ExplainGitWithD3/
+-so you can just visit that site to use an (almost) up to date version.
+-
+-UPDATE: the page can now also be accessed via: http://onlywei.github.io/explain-git-with-d3/
+
+1.7)4 Octobre 2017
+
+1.8)294c63b9653d93caefdd233da52fc0cd6ca95268
+
+1.9) C’est Wei Wang
+
+1.10) La commande : git log –oneline | wc -l		Résultat :91
+
+1.11)
+
+1.12)git log –format="%an"
+
+1.13)git log --format="%an" |sort |uniq |wc.	Il affiche 10 contributeurs. Ce n’est pas le meme résultat car il affiche deux fois la meme personne. C’est pour cela qu’il en indique un de plus.
+
+
+2 Création de branches
+
+2.1) git status
+
+2.2) Le nom de la branche par défaut est «main».
+
+2.3)git branch tp2
+      git checkout tp2
+
+2.4) mkdir web
+       touch index.html	
+
+2.5) Non, il n’est pas versionné.
+
+2.6) Après avoir commiter le fichier, j’effectue un « git checkout main » pour revenir à la branche principale. Non , on ne peut pas voir le fichier sur la branche principale.
+
+2.7)La commande affiche les modifications dans les fichiers.
+
+2.8) Oui
+
+3 Création d’un "Pull-request"
+
+3.1) 
